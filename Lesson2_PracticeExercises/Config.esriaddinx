@@ -1,0 +1,64 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Lesson2_PracticeExercises</Name>
+  <AddInID>{415951fd-2508-42ae-b1ad-36ca3cd05ac6}</AddInID>
+  <Description>GEOG 489 Lesson 2 Practice Exercise Solutions</Description>
+  <Version>1.0</Version>
+  <Image>Images\Lesson2_PracticeExercises.png</Image>
+  <Author>Andrew Murdoch</Author>
+  <Company>Penn State World Campus</Company>
+  <Date>12/16/2016</Date>
+  <Targets>
+    <Target name="Desktop" version="10.4" />
+  </Targets>
+  <AddIn language="CLR" library="Lesson2_PracticeExercises.dll" namespace="Lesson2_PracticeExercises">
+    <ArcMap >
+      <Commands>
+        <Button id="Penn_State_World_Lesson2_Practice1_solution" class="Practice1" message="Lesson 2 - Practice 1 solution" caption="Practice 1 solution" tip="Practice 1 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_Practice2_solution" class="Practice2" message="Lesson 2 - Practice 2 solution" caption="Practice 2 solution" tip="Practice 2 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_Practice3_solution" class="Practice3" message="Lesson 2 - Practice 3 solution" caption="Practice 3 solution" tip="Practice 3 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_Practice4_solution" class="Practice4" message="Lesson 2 - Practice 4 solution" caption="Practice 4 solution" tip="Practice 4 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_Practice5_solution" class="Practice5" message="Lesson 2 - Practice 5 solution" caption="Practice 5 solution" tip="Practice 5 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_Practice6_solution" class="Practice6" message="Lesson 2 - Practice 6 solution" caption="Practice 6 solution" tip="Practice 6 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_Practice7_solution" class="Practice7" message="Lesson 2 - Practice 7 solution" caption="Practice 7 solution" tip="Practice 7 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_Practice8_solution" class="Practice8" message="Lesson 2 - Practice 8 solution" caption="Practice 8 solution" tip="Practice 8 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_Practice9_solution" class="Practice9" message="Lesson 2 - Practice 9 solution" caption="Practice 9 solution" tip="Practice 9 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_Practice10_solution" class="Practice10" message="Lesson 2 - Practice 10 solution" caption="Practice 10 solution" tip="Practice 10 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_Practice11_solution" class="Practice11" message="Lesson 2 - Practice 11 solution" caption="Practice 11 solution" tip="Practice 11 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_Practice12_solution" class="Practice12" message="Lesson 2 - Practice 12 solution" caption="Practice 12 solution" tip="Practice 12 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_Practice13_solution" class="Practice13" message="Lesson 2 - Practice 13 solution" caption="Practice 13 solution" tip="Practice 13 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_Practice14_solution" class="Practice14" message="Lesson 2 - Practice 14 solution" caption="Practice 14 solution" tip="Practice 14 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_ReportTemperature" class="ReportTemperature" message="Lesson 2 - ReportTemperature" caption="ReportTemperature" tip="ReportTemperature" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_RiverSubsetsButton" class="RiverSubsetsButton" message="Lesson 2 - RiverSubsetsButton" caption="RiverSubsetsButton" tip="RiverSubsetsButton" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+      </Commands>
+      <Menus>
+        <Menu id="Penn_State_World_Lesson2_Lesson2_Practice_Exercises" caption="Lesson2 Practice Exercises" isRootMenu="false">
+          <Items>
+            <Button refID="Penn_State_World_Lesson2_Practice1_solution" />
+            <Button refID="Penn_State_World_Lesson2_Practice2_solution" />
+            <Button refID="Penn_State_World_Lesson2_Practice3_solution" />
+            <Button refID="Penn_State_World_Lesson2_Practice4_solution" />
+            <Button refID="Penn_State_World_Lesson2_Practice5_solution" />
+            <Button refID="Penn_State_World_Lesson2_Practice6_solution" />
+            <Button refID="Penn_State_World_Lesson2_Practice7_solution" />
+            <Button refID="Penn_State_World_Lesson2_Practice8_solution" />
+            <Button refID="Penn_State_World_Lesson2_Practice9_solution" />
+            <Button refID="Penn_State_World_Lesson2_Practice10_solution" />
+            <Button refID="Penn_State_World_Lesson2_Practice11_solution" />
+            <Button refID="Penn_State_World_Lesson2_Practice12_solution" />
+            <Button refID="Penn_State_World_Lesson2_Practice13_solution" />
+            <Button refID="Penn_State_World_Lesson2_Practice14_solution" />
+            <Button refID="Penn_State_World_Lesson2_ReportTemperature" />
+            <Button refID="Penn_State_World_Lesson2_RiverSubsetsButton" />
+          </Items>
+        </Menu>
+      </Menus>
+      <Toolbars>
+        <Toolbar id="Penn_State_World_Lesson2_Lesson2" caption="Lesson2" showInitially="true">
+          <Items>
+            <Menu refID="Penn_State_World_Lesson2_Lesson2_Practice_Exercises" />
+          </Items>
+        </Toolbar>
+      </Toolbars>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
