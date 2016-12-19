@@ -17,6 +17,12 @@
         <Button id="Penn_State_World_Lesson4_Practice2_solution" class="Practice2" message="Lesson 4 - Practice 2 solution" caption="Practice 2 solution" tip="Practice 2 solution" category="Lesson4_solutions" image="Images\Practice1_solution.png" />
         <Button id="Penn_State_World_Lesson4_Practice3_solution" class="Practice3" message="Lesson 4 - Practice 3 solution" caption="Practice 3 solution" tip="Practice 3 solution" category="Lesson4_solutions" image="Images\Practice1_solution.png" />
         <Button id="Penn_State_World_Lesson4_Practice4_solution" class="Practice4" message="Lesson 4 - Practice 4 solution" caption="Practice 4 solution" tip="Practice 4 solution" category="Lesson4_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson4_NewShapeFile_example" class="NewShapeFile" message="Lesson 4 - New Shapefile Example" caption="New Shapefile Example" tip="New Shapefile Example" category="Lesson4_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson4_NewTable_example" class="NewTable" message="Lesson 4 - New Table Example" caption="New Table Example" tip="New Table Example" category="Lesson4_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson4_SearchCursor_example" class="SearchCursor" message="Lesson 4 - Search Cursor Example" caption="Search Cursor Example" tip="Search Cursor Example" category="Lesson4_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson4_SelectFeatures_example" class="SelectFeatures" message="Lesson 4 - Select Features Example" caption="Select Features Example" tip="Select Features Example" category="Lesson4_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson4_SelectionSet_example" class="SelectionSet" message="Lesson 4 - Selection Set Example" caption="Selection Set Example" tip="Selection Set Example" category="Lesson4_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson4_SpatialFilter_example" class="SpatialFilterExample" message="Lesson 4 - Spatial Filter Example" caption="Spatial Filter Example" tip="Spatial Filter Example" category="Lesson4_solutions" image="Images\Practice1_solution.png" />
       </Commands>
       <Menus>
         <Menu id="Penn_State_World_Lesson4_Lesson4_Practice_Exercises" caption="Lesson4 Practice Exercises" isRootMenu="false">
@@ -25,6 +31,12 @@
             <Button refID="Penn_State_World_Lesson4_Practice2_solution" />
             <Button refID="Penn_State_World_Lesson4_Practice3_solution" />
             <Button refID="Penn_State_World_Lesson4_Practice4_solution" />
+            <Button refID="Penn_State_World_Lesson4_NewShapeFile_example" />
+            <Button refID="Penn_State_World_Lesson4_NewTable_example" />
+            <Button refID="Penn_State_World_Lesson4_SearchCursor_example" />
+            <Button refID="Penn_State_World_Lesson4_SelectFeatures_example" />
+            <Button refID="Penn_State_World_Lesson4_SelectionSet_example" />
+            <Button refID="Penn_State_World_Lesson4_SpatialFilter_example" />
           </Items>
         </Menu>
       </Menus>

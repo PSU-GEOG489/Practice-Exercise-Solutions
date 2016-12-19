@@ -104,12 +104,11 @@
     <Compile Include="SearchCursor.cs" />
     <Compile Include="SelectFeatures.cs" />
     <Compile Include="SelectionSet.cs" />
-    <Compile Include="SpatialFilter.cs" />
+    <Compile Include="SpatialFilterExample.cs" />
   </ItemGroup>
   <ItemGroup>
     <AddInContent Include="Config.esriaddinx">
       <Generator>ArcGISAddInHostGenerator</Generator>
-      <LastGenOutput>Config.Designer.cs</LastGenOutput>
     </AddInContent>
   </ItemGroup>
   <ItemGroup>
