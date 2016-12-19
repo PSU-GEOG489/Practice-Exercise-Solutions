@@ -1,0 +1,44 @@
+﻿<ESRI.Configuration xmlns="http://schemas.esri.com/Desktop/AddIns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Lesson3_PracticeExercises</Name>
+  <AddInID>{49175ea7-0b72-4c08-82dc-667ea6af4ff6}</AddInID>
+  <Description>GEOG 489 Lesson 3 practice exercise solutions</Description>
+  <Version>1.0</Version>
+  <Image>Images\Lesson3_PracticeExercises.png</Image>
+  <Author>Andrew Murdoch</Author>
+  <Company>Penn State World Campus</Company>
+  <Date>12/19/2016</Date>
+  <Targets>
+    <Target name="Desktop" version="10.4" />
+  </Targets>
+  <AddIn language="CLR" library="Lesson3_PracticeExercises.dll" namespace="Lesson3_PracticeExercises">
+    <ArcMap >
+      <Commands>
+        <Button id="Penn_State_World_Lesson3_Practice1_solution" class="Practice1" message="Lesson 3 - Practice 1 solution" caption="Practice 1 solution" tip="Practice 1 solution" category="Lesson3_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson3_Practice2_solution" class="Practice2" message="Lesson 3 - Practice 2 solution" caption="Practice 2 solution" tip="Practice 2 solution" category="Lesson3_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson3_Practice3_solution" class="Practice3" message="Lesson 3 - Practice 3 solution" caption="Practice 3 solution" tip="Practice 3 solution" category="Lesson3_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson3_Practice4_solution" class="Practice4" message="Lesson 3 - Practice 4 solution" caption="Practice 4 solution" tip="Practice 4 solution" category="Lesson3_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson3_AddData" class="AddData" message="Lesson 3 - Add Data Example" caption="Add Data Example" tip="Add Data Example" category="Lesson3_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson3_Render" class="Render" message="Lesson 3 - Render Example" caption="Render Example" tip="Render Example" category="Lesson3_solutions" image="Images\Practice1_solution.png" />
+      </Commands>
+      <Menus>
+        <Menu id="Penn_State_World_Lesson3_Lesson3_Practice_Exercises" caption="Lesson3 Practice Exercises" isRootMenu="false">
+          <Items>
+            <Button refID="Penn_State_World_Lesson3_Practice1_solution" />
+            <Button refID="Penn_State_World_Lesson3_Practice2_solution" />
+            <Button refID="Penn_State_World_Lesson3_Practice3_solution" />
+            <Button refID="Penn_State_World_Lesson3_Practice4_solution" />
+            <Button refID="Penn_State_World_Lesson3_AddData" />
+            <Button refID="Penn_State_World_Lesson3_Render" />
+          </Items>
+        </Menu>
+      </Menus>
+      <Toolbars>
+        <Toolbar id="Penn_State_World_Lesson3_Lesson3" caption="Lesson3" showInitially="true">
+          <Items>
+            <Menu refID="Penn_State_World_Lesson3_Lesson3_Practice_Exercises" />
+          </Items>
+        </Toolbar>
+      </Toolbars>
+    </ArcMap>
+  </AddIn>
+</ESRI.Configuration>
