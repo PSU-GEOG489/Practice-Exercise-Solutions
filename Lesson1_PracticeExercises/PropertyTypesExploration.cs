@@ -24,11 +24,16 @@ namespace Lesson1_PracticeExercises
 
     public class PropertyTypesExploration
     {
+        //reference information: 
+        // http://net-informations.com/faq/netfaq/field.htm
+        // http://stackoverflow.com/questions/4142867/what-is-difference-between-property-and-variable-in-c-sharp
+
+
         public string mySimpleStringProperty { get; set; } //string property
         public double mySimpleDoubleProperty { get; set; } //double property
 
         private string _myCustomStringProperty; //private "backing" field for the "myCustomStringProperty. this won't be seen outside of this class
-        public string myCustomStringProperty //string property with expanded getter and setter functions
+        public string myCustomStringProperty //string property "wrapper" for the private field with expanded getter and setter functions
         {
             get
             {
@@ -40,7 +45,7 @@ namespace Lesson1_PracticeExercises
             }
         }
 
-        public string myStringField; //public class-level string field
+        public string myStringField; //public class-level string field - This is frowned upon and should be avoided in favor of private fields and public property "wrappers"
 
         private void MethodToCall()
         {
@@ -60,7 +65,9 @@ namespace Lesson1_PracticeExercises
             _myCustomStringProperty = myLocalStringVariable;
             mySimpleStringProperty = myLocalStringVariable;
 
-            //This will fail because the string value can't be parsed to a double...
+            //These are methods of setting the numeric double type properties
+            //This will fail because the string value can't be parsed to a double. 
+            //This _would_ work if you could guarantee that the string could successfully be parsed as a number...
             //Let's just comment it out unless you want to see for yourself...
             //mySimpleDoubleProperty = double.Parse(myLocalStringVariable); 
 
