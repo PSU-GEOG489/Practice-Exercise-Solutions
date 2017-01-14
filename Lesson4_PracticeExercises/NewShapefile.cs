@@ -101,6 +101,7 @@ namespace Lesson4_PracticeExercises
 
         protected override void OnClick()
         {
+            ArcMap.Application.CurrentTool = null;
             CreateNewShapefile();
         }
 

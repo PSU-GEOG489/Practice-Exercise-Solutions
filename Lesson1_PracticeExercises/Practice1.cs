@@ -7,8 +7,10 @@ using System.Windows.Forms;
 
 namespace Lesson1_PracticeExercises
 {
+    
     public class Practice1 : ESRI.ArcGIS.Desktop.AddIns.Button
     {
+
         public Practice1()
         {
         }
@@ -22,6 +24,7 @@ namespace Lesson1_PracticeExercises
 
         protected override void OnClick()
         {
+            ArcMap.Application.CurrentTool = null;
             PracticeExercise1();
         }
 

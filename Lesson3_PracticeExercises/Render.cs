@@ -440,6 +440,7 @@ namespace Lesson3_PracticeExercises
 
         protected override void OnClick()
         {
+            ArcMap.Application.CurrentTool = null;
             Render_Layers();
         }
 

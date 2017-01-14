@@ -243,3 +243,4 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/Lesson1_PracticeExercises/PropertyTypesExploration.cs

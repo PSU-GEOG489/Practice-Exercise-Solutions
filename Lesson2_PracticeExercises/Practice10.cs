@@ -47,6 +47,7 @@ namespace Lesson2_PracticeExercises
 
         protected override void OnClick()
         {
+            ArcMap.Application.CurrentTool = null;
             PracticeExercise10();
         }
 

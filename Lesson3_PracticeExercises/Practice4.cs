@@ -16,6 +16,7 @@ namespace Lesson3_PracticeExercises
 
         protected override void OnClick()
         {
+            ArcMap.Application.CurrentTool = null;
         }
 
         protected override void OnUpdate()

@@ -122,6 +122,7 @@ namespace Lesson3_PracticeExercises
 
         protected override void OnClick()
         {
+            ArcMap.Application.CurrentTool = null;
             Add_AccessData();
             Add_CoverageData();
             Add_Raster();
