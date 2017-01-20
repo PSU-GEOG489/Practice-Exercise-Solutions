@@ -6,12 +6,12 @@
   <Image>Images\Lesson2_PracticeExercises.png</Image>
   <Author>Andrew Murdoch</Author>
   <Company>Penn State World Campus</Company>
-  <Date>12/16/2016</Date>
+  <Date>1/19/2017</Date>
   <Targets>
     <Target name="Desktop" version="10.4" />
   </Targets>
   <AddIn language="CLR" library="Lesson2_PracticeExercises.dll" namespace="Lesson2_PracticeExercises">
-    <ArcMap >
+    <ArcMap>
       <Commands>
         <Button id="Penn_State_World_Lesson2_Practice1_solution" class="Practice1" message="Lesson 2 - Practice 1 solution" caption="Practice 1 solution" tip="Practice 1 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
         <Button id="Penn_State_World_Lesson2_Practice2_solution" class="Practice2" message="Lesson 2 - Practice 2 solution" caption="Practice 2 solution" tip="Practice 2 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
@@ -29,6 +29,7 @@
         <Button id="Penn_State_World_Lesson2_Practice14_solution" class="Practice14" message="Lesson 2 - Practice 14 solution" caption="Practice 14 solution" tip="Practice 14 solution" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
         <Button id="Penn_State_World_Lesson2_ReportTemperature" class="ReportTemperature" message="Lesson 2 - ReportTemperature" caption="ReportTemperature" tip="ReportTemperature" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
         <Button id="Penn_State_World_Lesson2_RiverSubsetsButton" class="RiverSubsetsButton" message="Lesson 2 - RiverSubsetsButton" caption="RiverSubsetsButton" tip="RiverSubsetsButton" category="Lesson2_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson2_PracticeExercises_DockableWindowLaunchButton" class="DockableWindowLaunchButton" message="Launch Dockable Window" caption="Launch Dockable Window" tip="Launch Dockable Window" category="Lesson2_solutions" image="Images\DockableWindowLaunchButton.png" />
       </Commands>
       <Menus>
         <Menu id="Penn_State_World_Lesson2_Lesson2_Practice_Exercises" caption="Lesson2 Practice Exercises" isRootMenu="false">
@@ -49,6 +50,7 @@
             <Button refID="Penn_State_World_Lesson2_Practice14_solution" />
             <Button refID="Penn_State_World_Lesson2_ReportTemperature" />
             <Button refID="Penn_State_World_Lesson2_RiverSubsetsButton" />
+            <Button refID="Penn_State_World_Lesson2_PracticeExercises_DockableWindowLaunchButton" />
           </Items>
         </Menu>
       </Menus>
@@ -59,6 +61,11 @@
           </Items>
         </Toolbar>
       </Toolbars>
+      <DockableWindows>
+        <DockableWindow id="Penn_State_World_Lesson2_PracticeExercises_DockableWindowTest" class="DockableWindowTest+AddinImpl" caption="My Dockable Window" image="Images\DockableWindowTest.png">
+          <InitialPlacement height="300" width="300" state="pinned" position="left" />
+        </DockableWindow>
+      </DockableWindows>
     </ArcMap>
   </AddIn>
 </ESRI.Configuration>

@@ -101,6 +101,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Config.esriaddinx</DependentUpon>
     </Compile>
+    <Compile Include="Config1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Config.esriaddinx</DependentUpon>
+    </Compile>
+    <Compile Include="DockableWindowLaunchButton.cs" />
+    <Compile Include="DockableWindowTest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DockableWindowTest.Designer.cs">
+      <DependentUpon>DockableWindowTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Practice1.cs" />
     <Compile Include="Practice10.cs" />
     <Compile Include="Practice11.cs" />
@@ -123,7 +134,7 @@
   <ItemGroup>
     <AddInContent Include="Config.esriaddinx">
       <Generator>ArcGISAddInHostGenerator</Generator>
-      <LastGenOutput>Config.Designer.cs</LastGenOutput>
+      <LastGenOutput>Config1.Designer.cs</LastGenOutput>
     </AddInContent>
   </ItemGroup>
   <ItemGroup>
@@ -148,6 +159,17 @@
   </ItemGroup>
   <ItemGroup>
     <AddInContent Include="Images\Practice1_solution.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AddInContent Include="Images\lesson2_test9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DockableWindowTest.resx">
+      <DependentUpon>DockableWindowTest.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AddInContent Include="Images\DockableWindowLaunchButton.png" />
   </ItemGroup>
   <PropertyGroup>
     <ZipFileExtension>esriAddIn</ZipFileExtension>
