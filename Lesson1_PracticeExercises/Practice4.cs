@@ -19,10 +19,10 @@ namespace Lesson1_PracticeExercises
         {
             IMxDocument pMxDoc;
             pMxDoc = (IMxDocument)ArcMap.Application.Document;
-            long lngSearchTol;
-            lngSearchTol = pMxDoc.SearchTolerancePixels;
+            int intSearchTol;
+            intSearchTol = pMxDoc.SearchTolerancePixels;
 
-            MessageBox.Show(lngSearchTol.ToString());
+            MessageBox.Show(intSearchTol.ToString());
         }
 
         protected override void OnClick()
