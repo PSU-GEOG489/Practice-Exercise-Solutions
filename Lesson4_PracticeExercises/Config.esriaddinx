@@ -13,7 +13,7 @@
   <AddIn language="CLR" library="Lesson4_PracticeExercises.dll" namespace="Lesson4_PracticeExercises">
     <ArcMap >
       <Commands>
-        <Button id="Penn_State_World_Lesson4_Practice1_solution" class="Practice1" message="Lesson 4 - Practice 1 solution" caption="Practice 1 solution" tip="Practice 1 solution" category="Lesson4_solutions" image="Images\Practice1_solution.png" />
+        <Button id="Penn_State_World_Lesson4_Practice1_solution" class="Practice1" message="Lesson 4 - Practice 1 solution" caption="Practice 1 solution" tip="Practice 1 solution" category="Lesson4_solutions" image="Images\Practice1_solution.png" onDemand="false" />
         <Button id="Penn_State_World_Lesson4_Practice2_solution" class="Practice2" message="Lesson 4 - Practice 2 solution" caption="Practice 2 solution" tip="Practice 2 solution" category="Lesson4_solutions" image="Images\Practice1_solution.png" />
         <Button id="Penn_State_World_Lesson4_Practice3_solution" class="Practice3" message="Lesson 4 - Practice 3 solution" caption="Practice 3 solution" tip="Practice 3 solution" category="Lesson4_solutions" image="Images\Practice1_solution.png" />
         <Button id="Penn_State_World_Lesson4_Practice4_solution" class="Practice4" message="Lesson 4 - Practice 4 solution" caption="Practice 4 solution" tip="Practice 4 solution" category="Lesson4_solutions" image="Images\Practice1_solution.png" />
